@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #team-members{
+      display: flex;
+      margin: auto;
+      width: 90%;
+      
+      text-align: center;
+      height: 400px;
+    }
+    img{
+      width: 100%;
+      height: 300px;
+     
+    }
+    .photo{
+      height: 400px;
+      width: 30%;
+      margin:0px 15px 0px 15px;
+      
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    h2,h1,p{
+      text-align: center;
+    }
+    #team-stats{
+      display: flex;
+      width: 100%;
+      margin: auto;
+      background-color: rgb(223, 223, 26);
+    }
+    .num{
+width: 20%;
+    }
+    .new{
+      color: rgb(6, 145, 145);
+    }
+    #cards{
+      width:90%;
+      margin: auto;
+      display: flex;
+    }
+    .draw{
+      width:40%;
+      margin: 10px 20px 0px 10px;
+    }
+    .set{
+      width: 100px;
+      height: 100px;
+      
+    
+    }
+  </style>
+</head>
+
+<body>
+  <div class="heading">
+    <h1 class="new">Meet Our Expert Members</h1>
+    <p>Who are in extremely love with eco friendly system.</p>
+  </div>
+  <!-- Top-section -->
+  <div id="team-members">
+    <div class="photo">
+      <img src="jobs 1.png" alt="">
+      <h2>Ethal Davis</h2>
+      <p>Managing Director(Sales)</p>
+    </div>
+    <div class="photo">
+      <img src="jobs 1.png" alt="">
+      <h2>Ethal Davis</h2>
+      <p>Managing Director(Sales)</p>
+    </div>
+    <div class="photo">
+      <img src="jobs 1.png" alt="">
+      <h2>Ethal Davis</h2>
+      <p>Managing Director(Sales)</p>
+    </div>
+    <div class="photo">
+      <img src="jobs 1.png" alt="">
+      <h2>Ethal Davis</h2>
+      <p>Managing Director(Sales)</p>
+    </div>
+    <!-- This section should contain 4 children divs, each div should have img,h2,p -->
+  </div><br><br><br><br>
+
+  <!-- Medium-section -->
+  <div id="team-stats">
+    <div class="num">
+      <h1>
+101
+      </h1>
+      <p>Projects Completed</p>
+    </div>
+    <div class="num">
+      <h1>
+1032
+      </h1>
+      <p>Really Happy Client</p>
+    </div>
+    <div class="num">
+      <h1>
+1026
+      </h1>
+      <p>Cup Of Coffee Taken</p>
+    </div>
+    <div class="num">
+      <h1>
+1212
+      </h1>
+      <p>In House Proffesionals</p>
+    </div>
+    <div>
+      <h1>
+1212
+      </h1>
+      <p>Total Task Completed</p>
+    </div>
+    <!-- This section should contain 5 children divs, each div should have h1,p -->
+  </div>
+
+  <div class="heading">
+    <h1 class="new">Some Features that Made us Unique</h1>
+    <p >Who are in extremely love with eco friendly system.</p>
+  </div>
+
+  <!-- bottom-section -->
+  <div id="cards">
+    <div class="draw">
+      
+    <p><img class="set" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKgFyu8K-yapIeGo8I9CIObY-AZRw8Dbivog&usqp=CAU" alt="">
+    </p>
+      <h2>
+Buliding Drawing
+      </h2>
+      <p> Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div >
+   <div class="draw">
+     <p> <img class="set"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORae4WSW3g8xK5Xf0FgvmRXw9WIAlTTgqjg&usqp=CAU" alt="">
+     </p>
+      <h2>
+Painting Constructions
+      </h2>
+      <p> Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="draw">
+      <p><img class="set" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSym3yvmZN60nw5CRae6-RXuE2e41oxORDa2w&usqp=CAU" alt="">
+      </p>
+        <h2>
+Reparing Constructions
+      </h2>
+      <p> Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <!-- This section should contain 3 children divs, each div should have img,h2,p -->
+  </div>
+</body>
+
+</html>
